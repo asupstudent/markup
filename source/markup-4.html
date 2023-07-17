@@ -84,6 +84,23 @@
       </section>
       <section class="room-reservation-form">
         <h3>Забронировать номер</h3>
+        <form id="reservation-form" action="#" method="post">
+          <label class="visually-hidden" for="reservation-form-name">Ваше имя</label>
+          <input type="text" name="reservation-form-name" id="reservation-form-name" placeholder="Ваше имя">
+          <label class="visually-hidden" for="reservation-form-pet">Имя питомца</label>
+          <input type="text" name="reservation-form-pet" id="reservation-form-pet" placeholder="Имя питомца">
+          <label class="visually-hidden" for="reservation-form-phone">Телефон</label>
+          <input type="tel" name="reservation-form-phone" id="reservation-form-phone" placeholder="Телефон">
+          <label class="visually-hidden" for="reservation-form-email">E-mail</label>
+          <input type="email" name="reservation-form-email" id="reservation-form-email" placeholder="E-mail">
+          <p>
+            <label class="visually-hidden" for="reservation-form-begin-date">Дата заезда с</label>
+            <input type="text" name="reservation-form-begin-date" id="reservation-form-begin-date" placeholder="26.01.2020">
+            <label class="visually-hidden" for="reservation-form-end-date">по</label>
+            <input type="text" name="reservation-form-end-date" id="reservation-form-end-date" placeholder="26.02.2020">
+          </p>
+          <button type="submit">Отправить заявку</button>
+        </form>
       </section>
     </section>
     <section class="reviews">
