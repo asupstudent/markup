@@ -179,13 +179,120 @@
     </section>
     <section class="reviews">
       <h2>Отзывы</h2>
+      <section class="user-reviews">
+        <h3>Оценки пользователей</h3>
+        <blockquote>
+          <img src="img/case_08/photo-2.jpg" width="370" height="381" alt="Семён Константинопольский">
+          <cite>Семён Константинопольский</cite>
+          <p>Скутер понравился, пластик выглядит прочным, и подсветка приятная. Батарея держит примерно час активного катания даже спустя год. Платформа прорезиненная, сцепление хорошее, но если гонять на максималке, всё равно можно упасть.</p>
+          <table>
+            <tr>
+              <td>5</td>
+              <td>5</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th>Общая оценка</th>
+              <th>Надёжность</th>
+              <th>Безопасность</th>
+              <th>Внешний вид</th>
+            </tr>
+          </table>
+        </blockquote>
+        <button type="button">Предыдущий слайд</button>
+        <button type="button">Следующий слайд</button>
+      </section>
+      <section class="add-review">
+        <h3>Ваша оценка</h3>
+        <p>Оцените использование <span>Rizor 4.0</span> и получите скидку <span>10%</span> на покупку второго гироскутера</p>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <label for="name">Имя и фамилия</label>
+          <input type="text" name="name" id="name" placeholder="Семён Константинопольский">
+          <label for="message">Текст отзыва</label>
+          <textarea name="message" id="message" placeholder="Ваш отзыв"></textarea>
+          <label for="rating">Общая оценка</label>
+          <select name="rating" id="rating">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+          </select>
+          <label for="surety">Надёжность</label>
+          <select name="surety" id="surety">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+          </select>
+          <label for="safety">Безопасность</label>
+          <select name="safety" id="safety">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+          </select>
+          <label for="facade">Внешний вид</label>
+          <select name="facade" id="facade">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+          </select>
+          <button type="submit">Отправить отзыв</button>
+        </form>
+      </section>
     </section>
     <section class="comparison">
       <h2>Сравнение моделей</h2>
+      <img src="img/case_08/photo-4.jpg" width="854" height="800" alt="Фото модели 4.0">
+      <table>
+        <tr>
+          <th></th>
+          <th>4.0</th>
+          <th>3.0</th>
+        </tr>
+        <tr>
+          <td>Вес</td>
+          <td>12 кг</td>
+          <td>16 кг</td>
+        </tr>
+        <tr>
+          <td>Нагрузка</td>
+          <td>до 100 кг</td>
+          <td>до 80 кг</td>
+        </tr>
+        <tr>
+          <td>Скорость</td>
+          <td>до 13 км/ч</td>
+          <td>до 9 км/ч</td>
+        </tr>
+        <tr>
+          <td>Мощность</td>
+          <td>350 Вт</td>
+          <td>200 Вт</td>
+        </tr>
+        <tr>
+          <td>Время работы</td>
+          <td>115 минут</td>
+          <td>95 минут</td>
+        </tr>
+        <tr>
+          <td>Самобалансировка</td>
+          <td>+</td>
+          <td>+</td>
+        </tr>
+        <tr>
+          <td>Режим обучения</td>
+          <td>+</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Гарантия</td>
+          <td>6 месяцев</td>
+          <td>3 месяца</td>
+        </tr>
+      </table>
     </section>
   </main>
   <footer class="main-footer">
-
+    <p class="copyright">© All rights reserved, 2017</p>
   </footer>
 </body>
 </html>
